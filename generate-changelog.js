@@ -2,7 +2,7 @@ const { generateChangelog } = require('@gitmoji-changelog/core')
 
 async function execute () {
   const args = process.argv.slice(2)
-  const release = args.length ? args[0] : 'v1.0.0'
+  const release = args.length ? args[0].replace('refs/tags/', '') : 'v1.0.0'
   const changelog = await generateChangelog('', release, {
     mode: 'init'
   })
