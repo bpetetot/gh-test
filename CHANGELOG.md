@@ -1,5 +1,13 @@
 # Changelog
 
+<a name="1.2.0"></a>
+## 1.2.0 (2020-11-22)
+
+### Changed
+
+- 🔧 add slack message after release [[6e8dab4](https://github.com/bpetetot/gh-test/commit/6e8dab4b10e924813cddbfbfe7dabcee7fe74e19)]
+
+
 <a name="1.1.2"></a>
 ## 1.1.2 (2020-11-22)
 
