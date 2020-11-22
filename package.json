@@ -6,6 +6,7 @@
   "scripts": {
     "test": "jest",
     "lint": "eslint *.js",
+    "release": "npm version minor -m ':bookmark: release %s'",
     "version": "gitmoji-changelog && git add CHANGELOG.md",
     "postversion": "git push && git push --tags"
   },
