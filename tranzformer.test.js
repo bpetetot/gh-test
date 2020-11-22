@@ -9,5 +9,5 @@ test('should replace first word letter by a Z', () => {
 })
 
 test('should replace first sentence letter by a Z', () => {
-  expect(tranzform('Hello world')).toEqual('Zello world')
+  expect(tranzform('Hello world')).toEqual('Zello Zorld')
 })
