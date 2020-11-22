@@ -13,6 +13,26 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
 
+      - name: Use cached dependencies
+        uses: actions/cache@v2
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-node-
+
+      - name: Install Node.js dependencies
+        run: npm install
+
+      - name: Generate changelog
+        id: run_changelog
+        run: |
+          output="$(node generate-changelog.js ${{ github.ref }})"
+          output="${output//'%'/'%25'}"
+          output="${output//$'\n'/'%0A'}"
+          output="${output//$'\r'/'%0D'}"
+          echo "::set-output name=changelog::$output"
+
       - name: Create Release
         id: create_release
         uses: actions/create-release@v1
@@ -21,5 +41,6 @@ jobs:
         with:
           tag_name: ${{ github.ref }}
           release_name: ${{ github.ref }}
+          body: ${{ steps.run_changelog.outputs.changelog }}
           draft: false
           prerelease: false
