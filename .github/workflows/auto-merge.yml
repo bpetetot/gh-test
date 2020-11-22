@@ -1,4 +1,4 @@
-name: automerge check
+name: Auto-merge
 on:
   pull_request:
     types:
@@ -15,6 +15,7 @@ jobs:
         env:
           GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
           MERGE_LABELS: ":rocket: Ready to Merge"
+          MERGE_METHOD: "squash"
           MERGE_COMMIT_MESSAGE: "pull-request-title"
           UPDATE_LABELS: ":rocket: Ready to Merge"
           UPDATE_METHOD: "rebase"
