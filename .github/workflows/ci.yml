@@ -26,7 +26,7 @@ jobs:
             ${{ runner.os }}-node-
 
       - name: Install Node.js dependencies
-        run: npm install
+        run: npm ci
 
       - name: Thanks contributor
         uses: marocchino/sticky-pull-request-comment@v2
