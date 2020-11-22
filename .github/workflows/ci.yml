@@ -28,6 +28,13 @@ jobs:
       - name: Install Node.js dependencies
         run: npm install
 
+      - name: Thanks contributor
+        uses: marocchino/sticky-pull-request-comment@v2
+        with:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          message: |
+            🙏 Thanks for the PR @${{ github.actor }}. We will review it ASAP.
+
       - name: Run linter
         uses: wearerequired/lint-action@v1
         with:
