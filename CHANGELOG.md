@@ -1,5 +1,13 @@
 # Changelog
 
+<a name="2.2.0"></a>
+## 2.2.0 (2020-11-22)
+
+### Added
+
+- ✨ set word tranzform [[778b982](https://github.com/bpetetot/gh-test/commit/778b982caadfa441f2ef0225e89c5f494a630c44)]
+
+
 <a name="2.1.0"></a>
 ## 2.1.0 (2020-11-22)
 
