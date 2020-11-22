@@ -2,12 +2,14 @@ function tranzformWord (str) {
   return 'Z' + str.slice(1)
 }
 
+function tranzformSentence(str) {
+  return str.split(' ').map(tranzformWord).join(' ')
+}
+
 function tranzform (str) {
   if (!str) return
 
-  const rezult = tranzformWord(str)
-
-  return rezult
+  return tranzformSentence(str)
 }
 
 module.exports = { tranzform }
