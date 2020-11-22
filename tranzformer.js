@@ -2,7 +2,7 @@ function tranzformWord (str) {
   return 'Z' + str.slice(1)
 }
 
-function tranzformSentence(str) {
+function tranzformSentence (str) {
   return str.split(' ').map(tranzformWord).join(' ')
 }
 
