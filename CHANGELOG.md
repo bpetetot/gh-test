@@ -1,5 +1,18 @@
 # Changelog
 
+<a name="1.1.0"></a>
+## 1.1.0 (2020-11-22)
+
+### Added
+
+- 👷‍♂️ Add workflow dispatch test [[579a437](https://github.com/bpetetot/gh-test/commit/579a4372c349f6161763a1221f3f9685c28b7e7a)]
+
+### Changed
+
+- 🔧 add release command [[65fbfd7](https://github.com/bpetetot/gh-test/commit/65fbfd7af1991e4542b2fed039751ec2ea13027f)]
+- 🔧 fix some actions [[6f4e5eb](https://github.com/bpetetot/gh-test/commit/6f4e5eb4f01ea3af3432c229a617bbd0b87fbfac)]
+
+
 <a name="1.0.0"></a>
 ## 1.0.0 (2020-11-22)
 
