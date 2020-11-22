@@ -1,5 +1,13 @@
 # Changelog
 
+<a name="2.0.0"></a>
+## 2.0.0 (2020-11-22)
+
+### Changed
+
+- 🔧 use npm ci in actions [[915a28e](https://github.com/bpetetot/gh-test/commit/915a28ed9d3d4c4b71f843df71ce95e902abb76d)]
+
+
 <a name="1.2.0"></a>
 ## 1.2.0 (2020-11-22)
 
