@@ -1,5 +1,17 @@
 # Changelog
 
+<a name="1.1.1"></a>
+## 1.1.1 (2020-11-22)
+
+### Changed
+
+- 🔧 add different release type scripts [[42a1a07](https://github.com/bpetetot/gh-test/commit/42a1a0733c8dfbd92914a34be2e343951afe4fb1)]
+
+### Fixed
+
+- 🐛 fix changelog generation arguments [[cf32ccd](https://github.com/bpetetot/gh-test/commit/cf32ccd1eb7705c32c499d9a953140f72de7872e)]
+
+
 <a name="1.1.0"></a>
 ## 1.1.0 (2020-11-22)
 
