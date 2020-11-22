@@ -1,5 +1,13 @@
 # Changelog
 
+<a name="1.1.2"></a>
+## 1.1.2 (2020-11-22)
+
+### Fixed
+
+- 🐛 fix release checkout all tags [[0ca8336](https://github.com/bpetetot/gh-test/commit/0ca8336706ccbcf8ed2d73481dd6b9f2aef79101)]
+
+
 <a name="1.1.1"></a>
 ## 1.1.1 (2020-11-22)
 
