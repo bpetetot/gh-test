@@ -1,5 +1,13 @@
 # Changelog
 
+<a name="2.5.0"></a>
+## 2.5.0 (2020-11-24)
+
+### Added
+
+- ✨ add version in slack message&quot; [[249e143](https://github.com/bpetetot/gh-test/commit/249e1430a3ef29b85293ce69172a9a88fcf7d087)]
+
+
 <a name="2.4.0"></a>
 ## 2.4.0 (2020-11-24)
 
