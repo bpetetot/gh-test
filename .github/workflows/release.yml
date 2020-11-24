@@ -54,7 +54,7 @@ jobs:
           SLACK_CHANNEL: releases
           SLACK_USERNAME: MrRobot
           SLACK_ICON_EMOJI: ':robot:'
-          SLACK_TITLE: Release ${{ github.ref }}
+          SLACK_TITLE: Release ${{ steps.create_release.outputs.name }}
           SLACK_MESSAGE: ${{ steps.run_changelog.outputs.changelog }}
           SLACK_FOOTER: ${{ steps.create_release.outputs.html_url }}
           MSG_MINIMAL: true
