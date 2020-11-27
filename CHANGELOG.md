@@ -1,5 +1,13 @@
 # Changelog
 
+<a name="2.8.0"></a>
+## 2.8.0 (2020-11-27)
+
+### Added
+
+- ✨ Add tranzform sentence [[a0569ed](https://github.com/bpetetot/gh-test/commit/a0569ed429dc37e5053c23cd5b376601fc772d4e)]
+
+
 <a name="2.7.0"></a>
 ## 2.7.0 (2020-11-26)
 
