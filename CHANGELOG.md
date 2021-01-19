@@ -1,5 +1,17 @@
 # Changelog
 
+<a name="3.0.0"></a>
+## 3.0.0 (2021-01-19)
+
+### Added
+
+- ✨ transform sentence [[1807ae2](https://github.com/bpetetot/gh-test/commit/1807ae23bd1bfea3ff3ba5851db69f00cf294e25)]
+
+### Miscellaneous
+
+-  Add lint error [[450c4be](https://github.com/bpetetot/gh-test/commit/450c4bedff01f101701e173cb3c0b9e8b8054cbc)]
+
+
 <a name="2.9.0"></a>
 ## 2.9.0 (2021-01-18)
 
