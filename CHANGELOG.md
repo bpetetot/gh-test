@@ -1,5 +1,17 @@
 # Changelog
 
+<a name="4.0.0"></a>
+## 4.0.0 (2021-04-23)
+
+### Added
+
+- ✨ add sentence transform [[b565b91](https://github.com/bpetetot/gh-test/commit/b565b91b056f9b73b60db23984d2eae6de8999a4)]
+
+### Miscellaneous
+
+-  Revert &quot;Change sentence&quot; [[1ab4a49](https://github.com/bpetetot/gh-test/commit/1ab4a494c2266d60b754914b7253757785b45451)]
+
+
 <a name="3.1.0"></a>
 ## 3.1.0 (2021-04-22)
 
